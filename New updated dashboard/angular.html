@@ -1,0 +1,6 @@
+<p>Give some input to the input box</p>
+<p>Name:<input type="text" [(ngModel)]="firstName"></p>
+<p>You wrote:<b>{{firstName}}</b></p>
+
+<div ng-bind="firstName"></div>
+<button (click)="updateName()">Update Name</button>
