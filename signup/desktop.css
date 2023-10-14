@@ -1,0 +1,124 @@
+.image-1-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1653px;
+    height: 1024px;
+    object-fit: cover;
+  }
+  .desktop-1-child {
+    position: absolute;
+    top: 188px;
+    left: 403px;
+    background-color: #fc814d;
+    width: 746px;
+    height: 556px;
+    mix-blend-mode: screen;
+  }
+  .desktop-1-inner,
+  .desktop-1-item,
+  .sign-in {
+    position: absolute;
+    top: 557px;
+    left: 568.98px;
+    width: 395.02px;
+    height: 5px;
+  }
+  .desktop-1-inner,
+  .sign-in {
+    top: 418px;
+  }
+  .sign-in {
+    top: 215px;
+    left: 524px;
+    display: inline-block;
+    width: 470px;
+    height: 70px;
+  }
+  .rectangle-button {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: #dea17c;
+    position: absolute;
+    top: 654px;
+    left: 664px;
+    border-radius: 20px;
+    width: 205px;
+    height: 49px;
+  }
+  .username1 {
+    position: absolute;
+    top: 388px;
+    left: 569px;
+    color: var(--color-black);
+    text-align: left;
+    display: inline-block;
+    width: 310px;
+    height: 33px;
+  }
+  .login,
+  .password1,
+  .username1 {
+    border: 0;
+    background-color: transparent;
+    font-size: var(--font-size-21xl);
+    font-family: var(--font-league-spartan);
+  }
+  .password1 {
+    position: absolute;
+    top: 513px;
+    left: 569px;
+    color: #090808;
+    text-align: left;
+    display: inline-block;
+    width: 310px;
+    height: 33px;
+  }
+  .login {
+    cursor: pointer;
+    padding: 0;
+    top: 660px;
+    left: 579px;
+    color: var(--color-black);
+    text-align: center;
+    width: 376px;
+    height: 38px;
+    mix-blend-mode: normal;
+  }
+  .login,
+  .signup1,
+  .welcome-to-tourism1 {
+    position: absolute;
+    display: inline-block;
+  }
+  .signup1 {
+    top: 576px;
+    left: 859px;
+    font-size: 32px;
+    width: 137px;
+    height: 26px;
+  }
+  .welcome-to-tourism1 {
+    margin: 0;
+    top: 85px;
+    left: 73px;
+    font-size: var(--font-size-45xl);
+    font-weight: 400;
+    font-family: inherit;
+    color: var(--color-white);
+    width: 1457px;
+    height: 38px;
+  }
+  .desktop-11 {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 1024px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-21xl);
+    color: var(--color-black);
+    font-family: var(--font-league-spartan);
+  }
+  

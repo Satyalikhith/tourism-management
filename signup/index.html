@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=League Spartan:wght@400&display=swap"
+    />
+    <form method="get" action="" name="reg_form" onsubmit="return validate()">
+  </head>
+  <body>
+    <div class="container-xxl">
+      
+    <div class="desktop-1">
+      <img class="signup-1-icon" alt="" src="signup.jpg" />
+     
+      <input
+        class="password"
+        type="password"
+        placeholder="Password"
+        maxlength
+        minlength
+        name="pass"
+      />
+
+      <input
+        class="username"
+        type="text"
+        placeholder="Username"
+        maxlength
+        minlength
+        name="uname"
+      />
+
+      <input
+        class="email"
+        type="text"
+        placeholder="Email"
+        maxlength
+        minlength
+        name="email"
+      />
+
+      <img class="image-4-icon" alt="" src="https://p7.hiclipart.com/preview/469/644/41/computer-icons-password-login-user-privacy.jpg" />
+
+      <img class="image-2-icon" alt="" src="data:image/png;base64,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" />
+
+      <img class="image-5-icon" alt="" src="https://w7.pngwing.com/pngs/218/354/png-transparent-computer-icons-email-mail-icon-miscellaneous-angle-rectangle.png" />
+
+      
+
+   
+    
+      <p class="signup">Sign Up</p>
+      <div class="welcome-to-tourism">Welcome to Tourism Management System</div>
+    
+      <label><input type="checkbox" id="terms" name="terms">I agree to the terms and conditions</label> <br>
+      <form action="/resources/after signup/index.html">
+      <button class="button">Sign Up</button>
+     
+      </form>
+      <script>
+        function validate() {
+          var uname = document.reg_form.uname;
+          var pass = document.reg_form.pass;
+          var email=document.reg_form.email;
+      
+          if(email.value.length <=0){
+            alert("Email Required");
+            email.focus();
+            return false;}
+
+          else if(uname.value.length <=0){
+            alert("Username required");
+            uname.focus();
+            return false;
+          }
+          else if(pass.value.length <=0){
+            alert("Password Required");
+            pass.focus();
+            return false;
+          }
+          
+          }
+        </script>
+    </div>
+  </form>
+    </div></body>
+</html>
