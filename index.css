@@ -1,0 +1,150 @@
+.image-1-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1653px;
+  height: 1024px;
+  object-fit: cover;
+  width: 100%;
+
+}
+.desktop-1-child {
+  position: absolute;
+  top: 188px;
+  left: 403px;
+  background-color: #fc814d;
+  width: 746px;
+  height: 556px;
+  mix-blend-mode:darken;
+}
+.desktop-1-inner,
+.desktop-1-item,
+.sign-in {
+  position: absolute;
+  top: 557px;
+  left: 568.98px;
+  width: 395.02px;
+  height: 5px;
+}
+.desktop-1-inner,
+.sign-in {
+  top: 418px;
+}
+.sign-in {
+  top: 215px;
+  left: 524px;
+  display: inline-block;
+  width: 470px;
+  height: 70px;
+}
+.rectangle-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color:transparent;
+  position: absolute;
+  top: 654px;
+  left: 664px;
+  border-radius: 20px;
+  width: 205px;
+  height: 49px;
+}
+.password,
+.username {
+  border: 0;
+  font-family: var(--font-league-spartan);
+  font-size: var(--font-size-21xl);
+  background-color: transparent;
+  left: 569px;
+  text-align: left;
+  width: 500px;
+  height: 33px;
+ 
+}
+.username {
+  position: absolute;
+  top: 388px;
+  color: var(--color-white);
+  display: inline-block;
+}
+.password {
+  top: 513px;
+  color: #ffffff;
+}
+.login,
+.password,
+.signup,
+.welcome-to-tourism {
+  position: absolute;
+  display: inline-block;
+  color: #ffffff;
+}
+.login {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 660px;
+  left: 750px;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-league-spartan);
+  color: var(--color-black);
+  text-align: center;
+  width: 100px;
+  height: 38px;
+  mix-blend-mode: normal;
+  color: #ffffff;
+  transition: 0.3s;
+}
+.login:hover{
+  color: rgb(238, 48, 48);
+  
+}
+.signup,
+.welcome-to-tourism {
+  top: 576px;
+  left: 859px;
+  font-size: 32px;
+  width: 137px;
+  height: 26px;
+}
+.welcome-to-tourism {
+  margin: 0;
+  top: 85px;
+  left: 250px;
+  font-size: 64px;
+  font-weight: 400;
+  font-family: inherit;
+  font-display: bold;
+  color: var(--color-black);
+  width: 1457px;
+  height: 38px;
+  color: #ffffff;
+}
+.desktop-1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+  scroll-behavior: smooth;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-league-spartan);
+}
+
+input::-webkit-input-placeholder{
+  color:#ffffff;
+
+}
+input:-moz-placeholder {
+  color:#ffffff;
+}
+
+.signup{
+  transition: 0.3s;
+}
+
+.signup:hover{
+  color: rgb(238, 48, 48);
+}
